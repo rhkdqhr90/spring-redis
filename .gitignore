@@ -17,6 +17,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -35,3 +36,36 @@ out/
 
 ### VS Code ###
 .vscode/
+# Java
+*.class
+*.jar
+*.war
+*.log
+hs_err_pid*
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ / VSCode
+.idea/
+*.iml
+.vscode/
+
+# Spring Boot 설정 파일 (시크릿 포함 가능성 있음)
+application.yml
+application-*.yml
+application.properties
+application-*.properties
+
+# Docker 관련 파일 (민감한 설정이 있을 경우만)
+compose.yml
+compose-prod.yml
+Dockerfile
+Dockerfile-prod
+.env
+
+# OS/Editor 관련
+.DS_Store
+Thumbs.db
